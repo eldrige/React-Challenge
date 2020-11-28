@@ -26,6 +26,15 @@ const data = [
     location: "The teapot and brew pot",
     date: "15TH NOV",
   },
+  {
+    id: 4,
+    title: "Super Saturday Sale",
+    details:
+      "Enjoy samples of our latest brews while overlooking the beautiful sites of our city.Plenty of iced and hot teas, plus gourmet coffee",
+    time: "15:00 - 16:00",
+    location: "The midpoint of the universe",
+    date: "17TH NOV",
+  },
 ];
 
 export default data;

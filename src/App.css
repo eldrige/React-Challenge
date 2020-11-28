@@ -21,11 +21,8 @@ body {
   font-size: 0.875rem;
 }
 
-.title,.time{
-  padding: 1rem 0.2rem;
-}
-.title,
-.time,
+
+
 article {
   border-bottom: 1px solid var(--lightGray);
 }

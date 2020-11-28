@@ -7,7 +7,7 @@ const Event = ({ events }) => {
         const { date, id, title, details, time, location } = even;
 
         return (
-          <article className="row">
+          <article className="row" key={id}>
             <h3 className="col-md-3 p-3">{date}</h3>
             <div className="col-md-6 p-3">
               <h2 className="title">{title}</h2>
@@ -15,7 +15,7 @@ const Event = ({ events }) => {
               <button>+ Event Details</button>
             </div>
             <div className="col-md-3 p-3">
-              <p className="time">{time}</p>
+              <h2 className="time">{time}</h2>
               <p className="location">{location}</p>
             </div>
           </article>
