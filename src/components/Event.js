@@ -14,8 +14,9 @@ const Event = ({ events }) => {
               <p className="details">{details}</p>
               <button>+ Event Details</button>
             </div>
-            <div className="col-md-3 p-3">
+            <div className="col-md-3 p-3 left">
               <h2 className="time">{time}</h2>
+              <div className="divider my-3"></div>
               <p className="location">{location}</p>
             </div>
           </article>

@@ -1,16 +1,16 @@
+/* variables */
 :root {
   --backgroundColor: #161616;
   --lightGray: #878588;
   --orange: #cc8b53;
 }
-
+/* basic resets */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
   color: #fff;
 }
 
@@ -33,12 +33,24 @@ h1 {
   text-transform: uppercase;
   margin: 0 auto;
 }
-
 button {
   color: var(--orange);
   border: none;
+  background: transparent;
 }
 .details,
 .location {
   color: var(--lightGray);
 }
+.title {
+  border-bottom: 1px solid var(--lightGray);
+  padding-bottom: 0.75rem;
+}
+div.divider{
+  width: 12rem;
+  height: 0.1rem;
+  background: var(--lightGray)
+}
+/* div.left.col-md-3.p-3{
+  text-align: right !important;
+} */
